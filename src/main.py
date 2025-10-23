@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import yaml
+
 from services.arg_manager import ArgManager
 from services.json_manager import JsonManager
 from services.mysql_manager import MysqlManager

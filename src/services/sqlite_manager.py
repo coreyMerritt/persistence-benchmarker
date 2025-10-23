@@ -1,6 +1,7 @@
-from datetime import datetime
 import sqlite3
+from datetime import datetime
 from typing import List
+
 from services.file_manager import FileManager
 from services.sql_manager import SqlManager
 

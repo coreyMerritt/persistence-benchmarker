@@ -1,6 +1,8 @@
 from datetime import datetime
 from typing import List
+
 import pymysql
+
 from services.sql_manager import SqlManager
 
 
