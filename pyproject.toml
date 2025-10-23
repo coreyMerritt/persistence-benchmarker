@@ -9,6 +9,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
+  "types-PyMySQL>=1.1.0.20250916",
   "types-PyYAML>=6.0.12.20250915",
   # Linters/Tests
   "isort",
