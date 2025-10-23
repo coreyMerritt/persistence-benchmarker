@@ -1,0 +1,31 @@
+[project]
+name = "CHANGE_ME"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "pymysql-1.1.2",
+  "pyyaml>=6.0.3"
+]
+
+[project.optional-dependencies]
+dev = [
+  "types-PyYAML>=6.0.12.20250915",
+  # Linters/Tests
+  "isort",
+  "mypy",
+  "pytest",
+  "ruff",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.isort]
+indent = "  "
+line_length = 120
+
+[tool.mypy]
+explicit_package_bases = true
+mypy_path = "src"
+
