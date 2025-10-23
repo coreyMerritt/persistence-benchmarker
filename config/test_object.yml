@@ -1,0 +1,8 @@
+some_property_one: "foobar"
+some_property_two: 7
+some_property_three: 1.19374
+some_property_four:
+  - "foo"
+  - "bar"
+some_property_five:
+  some_subproperty: 192.357253

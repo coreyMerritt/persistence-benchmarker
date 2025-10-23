@@ -1,0 +1,11 @@
+*.egg-info/
+__pycache__
+.env
+.venv
+.vscode
+build/
+config/backup/
+config/prod/
+test.db
+test.json
+test.yaml

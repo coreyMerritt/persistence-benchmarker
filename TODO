@@ -1,0 +1,7 @@
+- Convert from requirements.txt to pyproject.toml
+ Add load/select test for all
+- Track/output disk space usage for all
+- Add mariadb
+- Add postgres
+- Add mongodb
+- Add elasticsearch
